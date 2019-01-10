@@ -1,6 +1,7 @@
 def abbreviate(words = 'Massachusets institute of technology'):
-    e = words.split()
-    return "".join(_[0] for _ in e).upper()
+    x = words.split()
+    l = "".join(e[0] for e in x)
+    u = l.upper()
+    return u
 
 print(abbreviate())
-
